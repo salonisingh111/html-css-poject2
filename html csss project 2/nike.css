@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    font-family: arial;
+    border: border-box;
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.logo img{
+    width: 60px;
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+.login-btn{
+background-color: red;
+color: white;
+padding: 10px 20px;
+text-decoration: none;
+border-radius: 5px;
+margin-right: 25px;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+.content{
+    max-width: 40%;
+}
+.content h1{
+    font-weight: bolder;
+    font-size: 80px;
+    margin-bottom: 2px;
+}
+.content p{
+        font-weight: lighter;
+        font-size: medium;
+        margin-bottom: 7px;
+        margin-top:-20px;
+}
+.buttons{
+   margin-bottom: 20px;
+   margin-top: 20px;
+}
+.shop-button,.category-button{
+    text-decoration: none;
+    padding: 8px 20px;
+    font-size: 16px;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+.shop-button{
+    color: white;
+    background-color: red;
+    font-weight: bold;
+    font-size: medium;
+}
+.category-button{
+    color: #333;
+    background-color: white;
+    border: 2px solid #333;
+    font-weight: bold;
+    font-size: medium;
+}
+.available-on p{
+    display: flex;
+   margin-top: 20px;
+    font-weight: lighter;
+    font-size:small;
+    align-items: center;
+}
+.available-on img{
+    height: 30px;
+}
+.image img{
+    background-color: white;
+    max-width: 100%;
+    height: 570px;
+}
